@@ -1,0 +1,14 @@
+html{
+	background-image: url(http://1.bp.blogspot.com/-CYQ5F9q6YlE/VIX6zgIg8EI/AAAAAAAAGwU/nkOudSDpI18/s1600/website-background-rough-surface.jpg);
+	background-repeat: repeat;
+}
+
+body{
+	max-width: 1600px;
+	min-width: 1370px; 
+}
+
+#nav{
+	text-align: center;
+	font-size: 25px;
+}

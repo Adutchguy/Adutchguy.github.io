@@ -1,25 +1,55 @@
-
 html{
-	width: 1600px;
-	min-width: 1370px;
-     height: 100%;
-}
-body {
-	padding: 10px;
-	min-width: 1370px;
+	background-image: url(http://1.bp.blogspot.com/-CYQ5F9q6YlE/VIX6zgIg8EI/AAAAAAAAGwU/nkOudSDpI18/s1600/website-background-rough-surface.jpg);
+	background-repeat: repeat;
 }
 
-.pageTitle {
+body{
+	max-width: 1600px;
+	min-width: 800px; 
+}
+
+#nav{
 	text-align: center;
+	font-size: 25px;
 }
-.pageSubtitle {
+#maintitle{
 	text-align: center;
+	background-image: url(maintitleimg.jpg);
+	background-repeat: repeat;
+	border: 3px solid black;
 }
-.pictures {
-	margin: auto;
-	display: block;
+
+#maintitletext{
+	text-decoration: underline;
+	font-size: 50px;
 }
-.youtube{
-	margin: auto;
-	display: block;
+
+#mainsubtitletext{
+	font-size: 40px;
+	text-decoration: overline;
+}
+
+#schedulelink{
+	margin-right: 10px;
+}
+#youtubelink{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#lolslink{
+	margin-left: 10px;
+}
+
+#maincontent{
+
+}
+
+#maincontentheader{
+	text-decoration: underline;
+	font-size: 120%;
+}
+
+#footercontact{
+	text-decoration: underline;
+	font-size: 120%;
 }
