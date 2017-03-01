@@ -41,15 +41,10 @@ body{
 }
 
 #maincontent{
-
+	border: 1px solid black;
 }
 
 #maincontentheader{
-	text-decoration: underline;
-	font-size: 120%;
-}
-
-#footercontact{
 	text-decoration: underline;
 	font-size: 120%;
 }
