@@ -11,7 +11,11 @@ body{
 #nav{
 	text-align: center;
 	font-size: 25px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+
 #onedrivelink{
 	margin-left: 10px;
 	margin-right: 10px;

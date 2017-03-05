@@ -1,3 +1,6 @@
+* {
+}
+
 html{
 	background-image: url(http://1.bp.blogspot.com/-CYQ5F9q6YlE/VIX6zgIg8EI/AAAAAAAAGwU/nkOudSDpI18/s1600/website-background-rough-surface.jpg);
 	background-repeat: repeat;
@@ -11,22 +14,29 @@ body{
 #nav{
 	text-align: center;
 	font-size: 25px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+
 #maintitle{
 	text-align: center;
 	background-image: url(maintitleimg.jpg);
 	background-repeat: repeat;
 	border: 3px solid black;
+	line-height: 1em;
 }
 
 #maintitletext{
 	text-decoration: underline;
 	font-size: 50px;
+	font-family: 'VT323', monospace;
+
 }
 
 #mainsubtitletext{
 	font-size: 40px;
-	text-decoration: overline;
+	font-family: 'VT323', monospace;
 }
 
 #schedulelink{
@@ -43,6 +53,11 @@ body{
 
 #maincontent{
 	border: 1px solid black;
+}
+
+#maincontentp {
+	font-family: 'Shadows Into Light', cursive;
+	line-height: .8em;
 }
 
 #maincontentheader{
