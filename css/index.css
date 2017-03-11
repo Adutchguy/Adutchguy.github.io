@@ -14,7 +14,7 @@ body {
 
 .maintitle {
 	text-align: center;
-	border: 15px solid black;
+	border: 3px solid black;
 	box-sizing: border-box;
 	line-height: 1em;
 }
