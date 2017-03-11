@@ -16,15 +16,28 @@ header {
 }
 
 figure {
-	
+
 }
 
 .nav{
 	text-align: center;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	text-transform: uppercase;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.tableau{
+	width: 1370px;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+.tableau div {
+	position: absolute;
+	width: 1370px;
+	height: 837px;
 }
 
 

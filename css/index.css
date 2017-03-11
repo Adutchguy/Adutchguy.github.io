@@ -1,35 +1,30 @@
-* {
-	font-size: 1vw;
-}
-
-html{
-}
-
-body{
+body {
 	background: #FFDABB;
 	width: 100%;
-}
-
-.nav{
-	text-align: center;
 	font-size: 1vw;
-	text-transform: uppercase;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
-.maintitle{
+.nav {
 	text-align: center;
-	border: 3px solid black;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.maintitle {
+	text-align: center;
+	border: 15px solid black;
+	box-sizing: border-box;
 	line-height: 1em;
 }
 
-.maintitletext{
+.maintitle h1 {
 	font-size: 4vw;
 	font-family: 'VT323', monospace;
 }
 
-.mainsubtitletext{
+.maintitle h2 {
 	font-size: 3vw;
 	font-family: 'VT323', monospace;
 }
@@ -48,6 +43,7 @@ body{
 
 .maincontent{
 	border: 1px solid black;
+	box-sizing: border-box;
 }
 
 .maincontentp {
