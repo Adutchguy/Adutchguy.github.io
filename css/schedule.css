@@ -1,0 +1,45 @@
+* {
+	border: solid 1px red;
+}
+
+html{
+}
+
+body{
+	background: #FFDABB;
+	width: 100%;
+	min-width: 1370px;
+}
+
+header {
+	margin:auto;
+}
+
+figure {
+	
+}
+
+.nav{
+	text-align: center;
+	font-size: 1vw;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.onedrivelink{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.schedulelink{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.youtubelink{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.lolslink{
+	margin-left: 10px;
+}

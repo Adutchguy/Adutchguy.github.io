@@ -1,69 +1,65 @@
 * {
+	font-size: 1vw;
 }
 
 html{
-	background-image: url(http://1.bp.blogspot.com/-CYQ5F9q6YlE/VIX6zgIg8EI/AAAAAAAAGwU/nkOudSDpI18/s1600/website-background-rough-surface.jpg);
-	background-repeat: repeat;
 }
 
 body{
-	max-width: 1600px;
-	min-width: 800px;
+	background: #FFDABB;
+	width: 100%;
 }
 
-#nav{
+.nav{
 	text-align: center;
-	font-size: 25px;
+	font-size: 1vw;
 	text-transform: uppercase;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#maintitle{
+.maintitle{
 	text-align: center;
-	background-image: url(maintitleimg.jpg);
-	background-repeat: repeat;
 	border: 3px solid black;
 	line-height: 1em;
 }
 
-#maintitletext{
-	font-size: 50px;
-	font-family: 'VT323', monospace;
-
-}
-
-#mainsubtitletext{
-	font-size: 40px;
+.maintitletext{
+	font-size: 4vw;
 	font-family: 'VT323', monospace;
 }
 
-#schedulelink{
+.mainsubtitletext{
+	font-size: 3vw;
+	font-family: 'VT323', monospace;
+}
+
+.schedulelink{
 	margin-right: 10px;
 	margin-left: 10px;
 }
-#youtubelink{
+.youtubelink{
 	margin-left: 10px;
 	margin-right: 10px;
 }
-#lolslink{
+.lolslink{
 	margin-left: 10px;
 }
 
-#maincontent{
+.maincontent{
 	border: 1px solid black;
 }
 
-#maincontentp {
+.maincontentp {
 	font-family: 'Shadows Into Light', cursive;
 	line-height: .8em;
 }
 
-#maincontentheader{
+.maincontentheader{
 	text-decoration: underline;
-	font-size: 120%;
+	font-size: 2vw;
 }
-#onedrivelink{
+.onedrivelink{
 	margin-left: 10px;
 	margin-right: 10px;
 }
