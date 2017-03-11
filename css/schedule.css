@@ -9,6 +9,8 @@ body{
 	background: #FFDABB;
 	width: 100%;
 	min-width: 1370px;
+	margin: auto;
+	padding: 0;
 }
 
 header {

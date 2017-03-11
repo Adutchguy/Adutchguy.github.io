@@ -2,6 +2,12 @@ body {
 	background: #FFDABB;
 	width: 100%;
 	font-size: 1vw;
+	padding: 0;
+	margin: auto;
+}
+
+header {
+	padding: 0;
 }
 
 .nav {
@@ -17,6 +23,7 @@ body {
 	border: 3px solid black;
 	box-sizing: border-box;
 	line-height: 1em;
+	padding: 0;
 }
 
 .maintitle h1 {
