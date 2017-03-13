@@ -1,68 +1,116 @@
-body {
-	background: #FFDABB;
-	width: 100%;
-	font-size: 1vw;
+/* GLOBAL */
+
+* {
+	font-size: 1.5vw;
 	padding: 0;
-	margin: auto;
+	margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+	background: #B9D1FF;
+	width: 100vw;
+	font-size: 1.5vw;
+	padding: 0;
+	margin: 0;
+}
+
+/* FIXED NAV */
+
+.nav{
+  width: 100vw;
+  height: 5vw;
+  display: block;
+  position: fixed;
+  margin-top: 0;
+  font-size: 2vw;
+  top: 0px;
+  z-index: 99;
+  background: #5D7BB2;
+  border: 2px solid black;
+  border-radius: 0 0 20px 20px;
+}
+
+.nav .fixedNav {
+  display: block;
+  width: 100vw;
+  margin: auto;
+  padding: 0;
+  height: inherit;
+  position: relative;
+}
+
+.nav .fixedNav a {
+  width: 18vw;
+  height: 4vw;
+  display: inline-block;
+  position: absolute;
+  top: .25vw;
+  text-align: center;
+  font-size: 2vw;
+  border: 2px solid black;
+  border-radius: 4vw;
+  vertical-align: middle;
+  line-height: 4vw;
+  background: rgba(159,192,255,.3);
+}
+
+.nav .fixedNav .homeLink {
+  left: 1.67vw;
+}
+
+.nav .fixedNav .scheduleLink {
+  left: 21.3vw;
+}
+
+.nav .fixedNav .onedriveLink {
+  left: 41vw;
+}
+
+.nav .fixedNav .youtubeLink {
+  right: 21.3vw;
+}
+
+.nav .fixedNav .lolsLink {
+  right: 1.67vw;
+}
+
+/* HEADER */
 
 header {
-	padding: 0;
+  margin-top: 6vw;
+  text-align: center;
+  position: relative;
+  height: 9vw;
+  background: #94793F;
+  border: 2px solid black;
+  border: 2px solid black;
+  border-radius: 20px;
+
 }
 
-.nav {
-	text-align: center;
-	font-size: 1.5vw;
-	text-transform: uppercase;
-	margin-top: 20px;
-	margin-bottom: 20px;
+header hgroup {
 }
 
-.maintitle {
-	text-align: center;
-	border: 3px solid black;
-	box-sizing: border-box;
-	line-height: 1em;
-	padding: 0;
+header hgroup h1 {
 }
 
-.maintitle h1 {
-	font-size: 4vw;
-	font-family: 'VT323', monospace;
+header hgroup .mainTitle1 {
+  font-size: 4vw;
 }
 
-.maintitle h2 {
-	font-size: 3vw;
-	font-family: 'VT323', monospace;
+header hgroup span {
+  background: #000;
+  content: "";
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: 4.5vw;
+  left: 18vw;
+  width: 64vw;
 }
 
-.schedulelink{
-	margin-right: 10px;
-	margin-left: 10px;
-}
-.youtubelink{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.lolslink{
-	margin-left: 10px;
-}
+header hgroup .mainTitle2 {
+  font-size: 3vw;
 
-.maincontent{
-	border: 1px solid black;
-	box-sizing: border-box;
-}
-
-.maincontentp {
-	font-family: 'Shadows Into Light', cursive;
-	line-height: .8em;
-}
-
-.maincontentheader{
-	text-decoration: underline;
-	font-size: 2vw;
-}
-.onedrivelink{
-	margin-left: 10px;
-	margin-right: 10px;
 }
