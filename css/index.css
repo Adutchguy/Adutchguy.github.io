@@ -9,7 +9,7 @@
 
 body {
 	background: #B9D1FF;
-	width: 100vw;
+	width: 100%;
 	font-size: 1.5vw;
 	padding: 0;
 	margin: 0;
@@ -18,7 +18,7 @@ body {
 /* FIXED NAV */
 
 .nav{
-  width: 100vw;
+  width: 100%;
   height: 5vw;
   display: block;
   position: fixed;
@@ -81,9 +81,9 @@ header {
   margin-top: 6vw;
   text-align: center;
   position: relative;
+	width: 100%;
   height: 9vw;
   background: #94793F;
-  border: 2px solid black;
   border: 2px solid black;
   border-radius: 20px;
 
@@ -113,4 +113,22 @@ header hgroup span {
 header hgroup .mainTitle2 {
   font-size: 3vw;
 
+}
+
+/*SCHEDULE*/
+
+.tableau {
+	display: block;
+	margin-top: 1vw;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: relative;
+	outline: 1px solid red;
+}
+
+.tableau div {
+	position: absolute;
+	border-radius: 20px;
+	left: 7%;
 }
