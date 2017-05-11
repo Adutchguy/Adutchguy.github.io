@@ -1,0 +1,30 @@
+{
+  "name": "music.ministry",
+  "version": "1.0.0",
+  "description": "One stop shop for music ministry team.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "page": "^1.7.1",
+    "pg": "^6.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adutchguy/Adutchguy.github.io.git"
+  },
+  "keywords": [
+    "music",
+    "ministry",
+    "ibcf"
+  ],
+  "author": "Michael Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adutchguy/Adutchguy.github.io/issues"
+  },
+  "homepage": "https://github.com/Adutchguy/Adutchguy.github.io#readme"
+}
