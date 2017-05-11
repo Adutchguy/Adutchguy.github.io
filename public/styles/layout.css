@@ -1,18 +1,8 @@
-/* GLOBAL */
-
 * {
 	font-size: 1.5vw;
 	padding: 0;
 	margin: 0;
   box-sizing: border-box;
-}
-
-body {
-	background: #B9D1FF;
-	width: 100%;
-	font-size: 1.5vw;
-	padding: 0;
-	margin: 0;
 }
 
 /* FIXED NAV */
@@ -25,7 +15,7 @@ body {
   margin-top: 0;
   font-size: 2vw;
   top: 0px;
-  z-index: 99;
+  z-index: 50;
   background: #5D7BB2;
   border: 2px solid black;
   border-radius: 0 0 20px 20px;
@@ -75,7 +65,7 @@ body {
   right: 1.67vw;
 }
 
-/* HEADER */
+/*TITLE*/
 
 header {
   margin-top: 6vw;
@@ -113,22 +103,4 @@ header hgroup span {
 header hgroup .mainTitle2 {
   font-size: 3vw;
 
-}
-
-/*SCHEDULE*/
-
-.tableau {
-	display: block;
-	margin-top: 1vw;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	position: relative;
-	outline: 1px solid red;
-}
-
-.tableau div {
-	position: absolute;
-	border-radius: 20px;
-	left: 7%;
 }
