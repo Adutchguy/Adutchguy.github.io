@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<title>IBCF Music Ministry</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
 	<script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<link async href="https://fonts.googleapis.com/css?family=Anton" data-generated="https://enjoycss.com" rel="stylesheet" type="text/css"/>
@@ -52,20 +53,20 @@
 	</section>
 
 	<section class="tableau">
-		<div>
-			<div class="tableauPlaceholder" id="viz1489176197415" ><noscript><a href="#"><img alt="Music Team Log "" src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorshipData&#47;Story1&#47;1_rss.png" style="border: none"/></a></noscript><object class="tableauViz"  style="display:none;"><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" /> <param name="site_root" value="" /><param name="name" value="WorshipData&#47;Story1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorshipData&#47;Story1&#47;1.png" /> <param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div>                <script type="text/javascript">                    var divElement = document.getElementById('viz1489176197415');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1370px';vizElement.style.height='837px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+		<div id="vizContainer">
 		</div>
 	</section>
 
 	<section class="youtube">
-		<iframe width="1080" height="630" src="https://www.youtube.com/embed/Yw_oXcP9YaI?&autoplay=1" frameborder="0" allowfullscreen></iframe>
+		
 	</section>
 
 	<footer class="footer">
 
 
 	</footer>
-	<script src="js/hamburger.js"></script>
-
+	<script src='js/hamburger.js'></script>
+	<script src='js/tableau.js'></script>
+	<script>$(document).ready(initViz())</script>
 </body>
 </html>

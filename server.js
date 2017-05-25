@@ -27,7 +27,7 @@ app.use(express.static('./public'));
 
 app.get('/', (request, response) => response.sendFile('index.html', {root: './public'}))
 
-app.get('*', function(request, response) {
+app.get('/*', function(request, response) {
   console.log('OH NOES A 404!!!');
   response.status(404).sendFile('404.html', { root: './public'});
 });
