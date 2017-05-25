@@ -1,43 +1,27 @@
 /*TABLEAU SCHEDULE*/
-.tableau{
-	width: 1370px;
-	position: relative;
-	display: block;
-	margin: auto;
-}
 
-.tableau div {
-	position: absolute;
-	width: 1370px;
-	height: 837px;
-}
-
-.onedrivelink{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.schedulelink{
-	margin-right: 10px;
-	margin-left: 10px;
-}
-.youtubelink{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.lolslink{
-	margin-left: 10px;
-}
 
 /*NAVIGATION*/
 
-/*.icon-menu3:before {
-  content: "\e9bf";
-}*/
+nav{
 
-.icon-menu3 {
-  position: fixed;
-  top: 1%;
-  right: 2.5%;
-  font-size: 4vw;
-  color:rgba(108, 108, 108, 0.88);
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+
+}
+
+nav ul li:nth-child(1){
+	left: 0%;
+}
+nav ul li:nth-child(2){
+	left: 33%;
+}
+nav ul li:nth-child(3){
+	right: 0%;
 }
