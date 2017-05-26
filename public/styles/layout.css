@@ -35,20 +35,31 @@
 	width: 100%;
 }
 
+.lol-divs {
+	display: inline-block;
+	text-align: center;
+}
+
 .lol-left-container {
-	width: 49%;
+	width: 50%;
+	float: left;
 }
 
 .lol-left-container img {
-	width: 100%;
+	width: 80%;
+	height: 35vw;
+	margin: 1% 0;
 }
 
 .lol-right-container {
-	width: 49%;
+	width: 50%;
+	float: right;
 }
 
 .lol-right-container img {
-	width: 100%;
+	width: 80%;
+	height: 35vw;
+	margin: 1% auto;
 }
 
 /*YOUTUBE*/
