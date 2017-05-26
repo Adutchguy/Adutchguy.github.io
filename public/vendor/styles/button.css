@@ -22,12 +22,12 @@
   background: #FFFFFF;
 }
 
-.enjoy-css:active {
+/*.enjoy-css:active {
   margin: 6px 0 0;
   background: rgb(221, 221, 221);
   -webkit-box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.247059) , 0 4px 10px 0 rgba(0,0,0,0.2) , 0 14px 20px 0 rgba(0,0,0,0.14902) ;
   box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.247059) , 0 4px 10px 0 rgba(0,0,0,0.2) , 0 14px 20px 0 rgba(0,0,0,0.14902) ;
-}
+}*/
 
 .enjoy-css:focus {
   background: rgb(221, 221, 221);
