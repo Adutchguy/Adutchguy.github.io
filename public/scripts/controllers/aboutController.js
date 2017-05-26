@@ -5,8 +5,8 @@
 
   aboutController.init = function() {
     $('section').hide();
-    $('header').fadeIn(1500);
-    $('.about').fadeIn(1500);
+    $('header').fadeIn(1250);
+    $('.about').fadeIn(1250);
   }
 
   module.aboutController = aboutController;

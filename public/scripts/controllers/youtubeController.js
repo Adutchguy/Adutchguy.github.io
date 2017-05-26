@@ -6,7 +6,7 @@
   youtubeController.init = function() {
     $('section').hide();
     $('header').hide();
-    $('.youtube').fadeIn(1500);
+    $('.youtube').fadeIn(1250);
   }
 
   module.youtubeController = youtubeController;
