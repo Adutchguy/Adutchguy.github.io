@@ -1,12 +1,13 @@
 'use strict';
 
 (function(module) {
-  const indexController = {};
+  const scheduleController = {};
 
-  indexController.init = function() {
+  scheduleController.init = function() {
     $('section').hide();
-    $('.about').show();
+    $('header').hide();
+    $('.tableau').fadeIn(1500);
   }
 
-  module.indexController = indexController;
+  module.scheduleController = scheduleController;
 })(window);

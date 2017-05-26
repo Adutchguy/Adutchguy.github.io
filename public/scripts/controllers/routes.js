@@ -1,5 +1,6 @@
 'use strict';
 
-page('/', indexController.init);
-
+page('/', scheduleController.init);
+page('/videos', youtubeController.init);
+page('/about', aboutController.init);
 page();
