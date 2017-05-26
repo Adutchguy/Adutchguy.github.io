@@ -16,18 +16,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('./public'));
 
-// function proxyGitHub(request, response) {
-//   console.log('Routing GitHub request for', request.params[0]);
-//   (requestProxy({
-//     url: `https://api.github.com/${request.params[0]}`,
-//     headers: {Authorization: `token ${process.env.GITHUB_TOKEN}`}
-//   }))(request, response);
-// }
-// app.get('/github/*', proxyGitHub);
-
 app.get('/', (request, response) => response.sendFile('index.html', {root: './public'}))
 app.get('/videos', (request, response) => response.sendFile('index.html', {root: './public'}))
-app.get('/about', (request, response) => response.sendFile('index.html', {root: './public'}))
+app.get('/lol', (request, response) => response.sendFile('index.html', {root: './public'}))
 
 app.get('/*', function(request, response) {
   console.log('OH NOES A 404!!!');
