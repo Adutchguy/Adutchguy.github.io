@@ -26,6 +26,8 @@ app.use(express.static('./public'));
 // app.get('/github/*', proxyGitHub);
 
 app.get('/', (request, response) => response.sendFile('index.html', {root: './public'}))
+app.get('/videos', (request, response) => response.sendFile('index.html', {root: './public'}))
+app.get('/about', (request, response) => response.sendFile('index.html', {root: './public'}))
 
 app.get('/*', function(request, response) {
   console.log('OH NOES A 404!!!');

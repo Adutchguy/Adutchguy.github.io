@@ -3,25 +3,12 @@
 
 /*NAVIGATION*/
 
-nav{
-
+#schedule {
+	left: 25%;
 }
-
-nav ul {
-	list-style: none;
-	text-align: center;
+#videos {
+	left: 50%;
 }
-
-nav ul li {
-
-}
-
-nav ul li:nth-child(1){
-	left: 0%;
-}
-nav ul li:nth-child(2){
-	left: 33%;
-}
-nav ul li:nth-child(3){
-	right: 0%;
+#about {
+	left: 75%;
 }
