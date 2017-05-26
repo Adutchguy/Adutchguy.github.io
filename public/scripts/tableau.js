@@ -5,3 +5,5 @@ function initViz() {
     url = 'https://public.tableau.com/views/WorshipData/Story1';
   var viz = new tableau.Viz(containerDiv, url);
 };
+
+initViz();

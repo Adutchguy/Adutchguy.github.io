@@ -7,5 +7,7 @@ body {
 }
 
 iframe {
-	width: 49%;
+	width: 49.81%;
+	height: 27vw;
+	border-radius: 10px;
 }
