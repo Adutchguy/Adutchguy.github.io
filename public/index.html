@@ -5,26 +5,27 @@
 <head>
 	<meta charset="utf-8">
 	<title>IBCF Music Ministry</title>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+	<script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+	<link rel="stylesheet" href="styles/base.css">
+	<link rel="stylesheet" href="styles/icons.css">
+	<link rel="stylesheet" href="styles/layout.css">
+	<link rel="stylesheet" href="styles/modules.css">
 
 </head>
 
 <body>
 
 	<!-- NAVIGATION BAR -->
-
-   <div class="nav">
-    <nav class="fixedNav">
-        <a class="homeLink" href="index.html">Home</a>
-        <a class="scheduleLink" href="html/schedule.html">Tableau Storyboard</a>
-        <a class="onedriveLink" href="https://1drv.ms/f/s!Am__Ytxl9tHKiWm69wAMHw9RflMn">Chord Sheets</a>
-        <a class="youtubeLink" href="html/youtube.html">Youtube Videos</a>
-        <a class="lolsLink" href="html/funnygifs.html">LoLs</a>
-    </nav>
-   </div>
+	<nav>
+		<ul>
+			<li><a href="/">SCHEDULE</a></li>
+			<li><a href="/videos">VIDEOS</a></li>
+			<li><a href="/about">ABOUT</a></li>
+		</ul>
+	</nav>
 
 	<!-- HEADER AREA -->
 
@@ -46,20 +47,28 @@
 		Also some random funnies.</p>
 	</section>
 
-	<section class="tableau">
-		<div>
-			<div class="tableauPlaceholder" id="viz1489176197415" ><noscript><a href="#"><img alt="Music Team Log "" src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorshipData&#47;Story1&#47;1_rss.png" style="border: none"/></a></noscript><object class="tableauViz"  style="display:none;"><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" /> <param name="site_root" value="" /><param name="name" value="WorshipData&#47;Story1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorshipData&#47;Story1&#47;1.png" /> <param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div>                <script type="text/javascript">                    var divElement = document.getElementById('viz1489176197415');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1370px';vizElement.style.height='837px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+	<section class="tableau schedule">
+		<div id="vizContainer">
 		</div>
 	</section>
 
 	<section class="youtube">
-		<iframe width="1080" height="630" src="https://www.youtube.com/embed/Yw_oXcP9YaI?&autoplay=1" frameborder="0" allowfullscreen></iframe>
+			<iframe width="1080" height="608" src="https://www.youtube.com/embed/Yw_oXcP9YaI" frameborder="0" allowfullscreen></iframe>
+			<iframe width="1080" height="608" src="https://www.youtube.com/embed/ysbXV8jLUhU" frameborder="0" allowfullscreen></iframe>
+			<iframe width="1080" height="608" src="https://www.youtube.com/embed/2AuzLyS2PX4" frameborder="0" allowfullscreen></iframe>
+			<iframe width="1080" height="608" src="https://www.youtube.com/embed/euMSylvfNCM" frameborder="0" allowfullscreen></iframe>
 	</section>
 
 	<footer class="footer">
 
 
 	</footer>
-
+	<script src='scripts/hamburger.js'></script>
+	<script src='scripts/tableau.js'></script>
+	<script>$(document).ready(initViz())</script>
+	<script src="scripts/controllers/scheduleController.js"></script>
+	<script src="scripts/controllers/aboutController.js"></script>
+	<script src="scripts/controllers/youtubeController.js"></script>
+	<script src="scripts/controllers/routes.js"></script>
 </body>
 </html>
