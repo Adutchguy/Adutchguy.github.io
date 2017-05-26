@@ -1,9 +1,18 @@
 'use strict';
+(function(module){
 
-function initViz() {
+const tableauViz = {};
+
+tableauViz.initViz = function() {
+  var viz;
+
   var containerDiv = document.getElementById('vizContainer'),
-    url = 'https://public.tableau.com/views/WorshipData/Story1';
-  var viz = new tableau.Viz(containerDiv, url);
+    url = 'https://public.tableau.com/views/WorshipData/Story1',
+    viz = new tableau.Viz(containerDiv, url);
 };
 
-initViz();
+tableauViz.initViz();
+
+module.tableauViz = tableauViz;
+
+})(window)
