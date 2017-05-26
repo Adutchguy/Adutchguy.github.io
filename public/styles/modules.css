@@ -1,5 +1,9 @@
 /*TABLEAU SCHEDULE*/
-
+#vizContainer{
+	width: 90%;
+	height: 50vw;
+	margin: auto;
+}
 
 /*NAVIGATION*/
 
