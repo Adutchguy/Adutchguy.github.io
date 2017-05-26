@@ -73,12 +73,14 @@ header hgroup .mainTitle2 {
 
 .about{
 	margin-top: 4vw;
+	display: none;
 }
 
 /*YOUTUBE*/
 
 .youtube{
 	margin-top: 4vw;
+	display: none;
 }
 
 .schedule{
