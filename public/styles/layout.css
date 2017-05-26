@@ -69,13 +69,16 @@ header hgroup .mainTitle2 {
 /*ABOUT*/
 
 .about{
-	display: none;
+
 }
 
 /*YOUTUBE*/
 
 .youtube{
-	display: none;
+}
+
+.videos {
+	margin: auto;
 }
 
 /*SCHEDULE*/
