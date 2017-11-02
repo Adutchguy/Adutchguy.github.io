@@ -7,7 +7,7 @@ tableauViz.initViz = function() {
   var viz;
 
   var containerDiv = document.getElementById('vizContainer'),
-    url = 'https://public.tableau.com/views/SongStatsMobile/SongStats?:embed=y&:display_count=yes'
+    url = 'https://public.tableau.com/views/WorshipData/Story1'
     viz = new tableau.Viz(containerDiv, url);
 };
 
